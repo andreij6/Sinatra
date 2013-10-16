@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
 
 #before we process a rout, set the response as
 #plain txt and set up an array of moves that
